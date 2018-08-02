@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;        
+}
+
+h1 {
+    background-color:whitesmoke;    
+    color: #000080;
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid lightslategray;
+}
+
+a{
+    float: right;
+    display: inline;
+    text-decoration: none;
+}
+
+li {
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+ul li:last-child {
+    border-bottom: none
+}
+
+button{
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+
+input{
+    width: 95%;
+    height: 25px;
+    font-size: 14px;
+}
